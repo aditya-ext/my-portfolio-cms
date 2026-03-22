@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_portfolio_skill_categories",
+  "info": {
+    "displayName": "Skill Category",
+    "description": "Grouped skills"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "json"
+    }
+  }
+}

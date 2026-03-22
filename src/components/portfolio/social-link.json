@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_portfolio_social_links",
+  "info": {
+    "displayName": "Social Link",
+    "description": "A social or contact link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_portfolio_headers",
+  "info": {
+    "displayName": "Header",
+    "description": "Hero header content"
+  },
+  "options": {},
+  "attributes": {
+    "greeting": {
+      "type": "string",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    }
+  }
+}

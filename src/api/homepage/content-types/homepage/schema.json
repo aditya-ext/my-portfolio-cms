@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": "Portfolio homepage content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.site"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.header"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.feature-flags"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.social-link"
+    },
+    "githubUsername": {
+      "type": "string"
+    },
+    "aboutParagraphs": {
+      "type": "json"
+    },
+    "projectsTitle": {
+      "type": "string",
+      "default": "Featured Projects"
+    },
+    "featuredProjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.project"
+    },
+    "experienceTitle": {
+      "type": "string",
+      "default": "Professional Experience"
+    },
+    "experienceJobs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.work-experience"
+    },
+    "skillsTitle": {
+      "type": "string",
+      "default": "Skills & Technologies"
+    },
+    "skillCategories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.skill-category"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.footer"
+    }
+  }
+}

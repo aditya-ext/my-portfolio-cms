@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_portfolio_sites",
+  "info": {
+    "displayName": "Site",
+    "description": "Top-level site metadata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.seo"
+    }
+  }
+}

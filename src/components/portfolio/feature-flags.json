@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_portfolio_feature_flags",
+  "info": {
+    "displayName": "Feature Flags",
+    "description": "Toggle sections on and off"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "boolean",
+      "default": true
+    },
+    "projects": {
+      "type": "boolean",
+      "default": true
+    },
+    "experience": {
+      "type": "boolean",
+      "default": true
+    },
+    "skills": {
+      "type": "boolean",
+      "default": true
+    },
+    "githubProjects": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_portfolio_seos",
+  "info": {
+    "displayName": "SEO",
+    "description": "SEO and social metadata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "twitterCard": {
+      "type": "string",
+      "default": "summary_large_image"
+    },
+    "baseUrl": {
+      "type": "string"
+    }
+  }
+}
