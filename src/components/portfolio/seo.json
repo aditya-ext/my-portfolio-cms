@@ -26,6 +26,9 @@
         "images"
       ]
     },
+    "ogImageUrl": {
+      "type": "string"
+    },
     "twitterCard": {
       "type": "string",
       "default": "summary_large_image"

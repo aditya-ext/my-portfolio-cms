@@ -27,12 +27,18 @@
         "images"
       ]
     },
+    "logoUrl": {
+      "type": "string"
+    },
     "logoDarkImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "logoDark": {
+      "type": "string"
     }
   }
 }
